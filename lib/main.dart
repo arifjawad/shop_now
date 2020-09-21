@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_now/pages/productDetailsPage.dart';
 import 'pages/homePage.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class ShopNow extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: ProductDetails(),
     );
   }
 }

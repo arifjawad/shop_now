@@ -14,13 +14,42 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      body: Stack(
-        children: [
-          ProductDetails(),
-        ],
+/*
+      body:Column(
 
+      children: [
+        Container(
+
+          height: 50,
+          width: 180,
+          decoration: BoxDecoration(
+          color: Colors.redAccent,
+          borderRadius: BorderRadius.circular(15)),
+          margin: EdgeInsets.symmetric(vertical: 50),
+
+
+          child: Row(
+
+            children: [
+
+              ButtonBar(
+                children: [
+                  FlatButton(
+                    child: Text("Go to details",),
+                    color: Colors.redAccent,
+                    onPressed: ()=>{ProductDetails()},
+                  )
+                ],
+
+              )
+            ],
+          ),
+
+        )
+
+    ]
       ),
-
+*/
     );
   }
 }
